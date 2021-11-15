@@ -11,6 +11,7 @@
 		CE1B1778272A9582005D80F2 /* ChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B1777272A9582005D80F2 /* ChecklistView.swift */; };
 		CE1B177A272A9584005D80F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1B1779272A9584005D80F2 /* Assets.xcassets */; };
 		CE1B177D272A9584005D80F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1B177C272A9584005D80F2 /* Preview Assets.xcassets */; };
+		CE901DB027429BCE005499A8 /* NewChecklistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE901DAF27429BCE005499A8 /* NewChecklistItemView.swift */; };
 		CEB5A882273E9DB20023CFFE /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5A881273E9DB20023CFFE /* ChecklistItem.swift */; };
 		CEB5A886273E9DFB0023CFFE /* Checklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5A885273E9DFB0023CFFE /* Checklist.swift */; };
 		CEB5A88A273EA39B0023CFFE /* EditChecklistItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5A889273EA39B0023CFFE /* EditChecklistItemView.swift */; };
@@ -23,6 +24,7 @@
 		CE1B1779272A9584005D80F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1B177C272A9584005D80F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE1B177E272A9584005D80F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE901DAF27429BCE005499A8 /* NewChecklistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChecklistItemView.swift; sourceTree = "<group>"; };
 		CEB5A881273E9DB20023CFFE /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		CEB5A885273E9DFB0023CFFE /* Checklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checklist.swift; sourceTree = "<group>"; };
 		CEB5A889273EA39B0023CFFE /* EditChecklistItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditChecklistItemView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				CE1B1775272A9582005D80F2 /* ChecklistApp.swift */,
 				CE1B1777272A9582005D80F2 /* ChecklistView.swift */,
+				CE901DAF27429BCE005499A8 /* NewChecklistItemView.swift */,
 				CEB5A881273E9DB20023CFFE /* ChecklistItem.swift */,
 				CEB5A885273E9DFB0023CFFE /* Checklist.swift */,
 				CE1B1779272A9584005D80F2 /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEB5A886273E9DFB0023CFFE /* Checklist.swift in Sources */,
+				CE901DB027429BCE005499A8 /* NewChecklistItemView.swift in Sources */,
 				CE1B1778272A9582005D80F2 /* ChecklistView.swift in Sources */,
 				CEB5A882273E9DB20023CFFE /* ChecklistItem.swift in Sources */,
 				CE1B1776272A9582005D80F2 /* ChecklistApp.swift in Sources */,
