@@ -17,19 +17,8 @@ struct ChecklistView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(checklist.items) { item in
-                    HStack {
-                        Text(item.name)
-                        Spacer()
-                        Text(item.isChecked ? "✅" : "🔲")
-                    }
-                    .background(Color.white)
-                    .onTapGesture {
-                        if let matchingIndex = self.checklist.items.firstIndex(where: {
-                        $0.id == item.id }) {
-                            self.checklist.items[matchingIndex].isChecked.toggle()
-                          }
-                    }
+                ForEach(checklist.items) { index in
+                    RowView(checklistItem: $checklist.items[index])
                 }
                 .onDelete(perform: checklist.deleteListItem)
                 .onMove(perform: checklist.moveListItem)                
