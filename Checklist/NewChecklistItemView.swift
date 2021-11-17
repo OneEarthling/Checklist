@@ -20,6 +20,7 @@ struct NewChecklistItemView: View {
               Button(action: {
                 var newChecklistItem = ChecklistItem(name: newItemName)
                 checklist.items.append(newChecklistItem)
+                checklist.saveListItems()
                 presentationMode.wrappedValue.dismiss()
               }) {
                 HStack {
